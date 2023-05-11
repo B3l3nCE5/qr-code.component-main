@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fff5f5;
+    background-image: url(https://img.freepik.com/premium-vector/white-abstract-background-with-hexagon-pattern-style-seamless-concept_7505-1703.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 50%;
+    height: 100vh;
+}
+.gral {
+    background: #d1e3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 80vh; 
+    max-width: 1100px;
+    width: 100%;
+    /* border-radius: 1rem;
+    /* border-radius: 1rem; */
+    box-shadow: 0px 0px 30px 0px hsl(218deg 44% 22% / 11%);
+}
+
+.card {
+    background-color: white;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8rem;
+    flex-direction: column;
+    max-width: 300px;
+    box-shadow: 0px 11px 30px 0px hsl(218deg 44% 22% / 14%);
+}
+.codqr img {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+}
+.txt-gral {
+    align-self: center;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+}
+span.title {
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+span.txt {
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    font-size: 13.5px;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+    color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (max-width: 1200px){
+    .gral{
+        max-width: 1200px;
+       width:100% ;
+       height: 100vh;
+       box-shadow: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
